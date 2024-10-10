@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDE7"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/john"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#F8BBD0"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/jim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jim"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFAB91"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/jack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jack"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#7E57C2"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/jessie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jessie"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:background="#F06292"
+        android:textSize="24sp"
+        />
+
+
+    <TextView
+        android:id="@+id/robin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Robin"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#FF1744"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/tim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tim"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="#90CAF9"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/jeff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jeff"
+        android:textStyle="bold"
+        android:layout_below="@id/tim"
+        android:layout_alignParentRight="true"
+        android:background="#B39DDB"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/ted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFECB3"
+        android:layout_below="@id/jeff"
+        android:layout_centerHorizontal="true"
+        android:text="Ted"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#29B6F6"
+        android:layout_margin="25dp"
+        android:text="Tom!"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/todd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F4FF81"
+        android:text="Todd!"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/tom"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
